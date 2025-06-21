@@ -6,7 +6,7 @@ __pycache__/
 *.log
 *.tmp
 
-# VSCode ローカル設定（拡張機能など）
+# VSCode ローカル設定
 .vscode/
 
 # 仮想環境
@@ -14,17 +14,22 @@ __pycache__/
 env/
 venv/
 
-# 出力フォルダ
-dist/
-output/*
-!output/videos/.keep
-!output/images/.keep
-!output/others/.keep
+# 出力フォルダ（空フォルダだけを保持）
+!output/
+!output/videos/
+!output/images/
+!output/others/
+output/videos/*
+!output/videos/.gitkeep
+output/images/*
+!output/images/.gitkeep
+output/others/*
+!output/others/.gitkeep
 
 # ログ
 log/*
-!log/.keep
+!log/.gitkeep
 
-# 入力フォルダ（空でGitに保持）
+# 入力
 input/*
-!input/.keep
+!input/.gitkeep

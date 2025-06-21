@@ -71,17 +71,16 @@ RestoreFileClassifier/
 ├── requirements.txt         # 依存ライブラリ
 ├── run.bat                  # Windows用ワンクリック実行ファイル
 ├── README.md                # 本ファイル
+├── LICENSE                  # ライセンス
 ├── .gitignore               # Git無視設定
 ├── .vscode/
-│   ├── extensions.json      # 推奨拡張機能
-│   └── tasks.json           # VSCodeタスク定義
+│   └── extensions.json      # 推奨拡張機能
 ├── input/                   # 処理対象の復元ファイルを格納
 ├── output/
 │   ├── videos/              # 判定された動画ファイルの保存先
 │   ├── images/              # 判定された画像ファイルの保存先
 │   └── others/              # 不明・破損ファイルの保存先
-├── log/                     # 処理ログ保存ディレクトリ
-└── dist/                    # EXE化したファイル出力先（任意）
+└── log/                     # 処理ログ保存ディレクトリ
 ```
 
 ## 【ライセンス / License】
