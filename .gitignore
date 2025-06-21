@@ -1,0 +1,30 @@
+# Python キャッシュ・ビルド
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.tmp
+
+# VSCode ローカル設定（拡張機能など）
+.vscode/
+
+# 仮想環境
+.venv/
+env/
+venv/
+
+# 出力フォルダ
+dist/
+output/*
+!output/videos/.keep
+!output/images/.keep
+!output/others/.keep
+
+# ログ
+log/*
+!log/.keep
+
+# 入力フォルダ（空でGitに保持）
+input/*
+!input/.keep
